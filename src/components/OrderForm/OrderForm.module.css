@@ -1,0 +1,92 @@
+.section {
+  background: var(--color-cream-dark);
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.field label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-green-dark);
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 0.875rem 1rem;
+  border: 2px solid var(--color-cream-dark);
+  border-radius: var(--border-radius);
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--color-gold);
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.button {
+  padding: 1rem 2rem;
+  background: var(--color-green-dark);
+  color: var(--color-cream);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background: var(--color-green-medium);
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.success {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--color-green-dark);
+  font-weight: 600;
+  padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

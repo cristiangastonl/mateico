@@ -1,0 +1,57 @@
+.section {
+  background: var(--color-green-dark);
+  color: var(--color-cream);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.card {
+  text-align: center;
+  position: relative;
+}
+
+.number {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  opacity: 0.3;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 1.25rem;
+  color: var(--color-gold);
+}
+
+.stepTitle {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-cream);
+}
+
+.stepDesc {
+  font-size: 1rem;
+  color: rgba(250, 248, 242, 0.75);
+  line-height: 1.6;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    max-width: 400px;
+    margin: 3rem auto 0;
+  }
+}

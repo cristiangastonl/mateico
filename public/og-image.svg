@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a2a1a"/>
+  <ellipse cx="600" cy="340" rx="80" ry="110" fill="none" stroke="#d4a847" stroke-width="3" opacity="0.3"/>
+  <ellipse cx="600" cy="240" rx="80" ry="28" fill="none" stroke="#d4a847" stroke-width="3" opacity="0.3"/>
+  <path d="M680 340 Q720 340 715 300 Q710 260 680 260" fill="none" stroke="#d4a847" stroke-width="3" opacity="0.3"/>
+  <text x="600" y="280" text-anchor="middle" font-size="72" font-family="Georgia, serif" font-weight="bold" fill="#d4a847">Mateico</text>
+  <text x="600" y="340" text-anchor="middle" font-size="24" font-family="system-ui, sans-serif" fill="#faf8f2" opacity="0.7">Mates personalizados con grabado láser</text>
+  <text x="600" y="380" text-anchor="middle" font-size="20" font-family="system-ui, sans-serif" fill="#faf8f2" opacity="0.5">Amsterdam</text>
+</svg>

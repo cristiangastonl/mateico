@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Mateico — Mates personalizados con grabado láser en Amsterdam",
+    "description": "Mates artesanales personalizados con grabado láser. Diseño único, identidad argentina, hecho en Amsterdam. Unite a la lista de espera."
+  },
+  "header": {
+    "logo": "Mateico",
+    "waitlist": "Lista de espera"
+  },
+  "hero": {
+    "title": "Tu mate, tu historia",
+    "subtitle": "Mates artesanales personalizados con grabado láser. Diseño único, identidad argentina, hecho en Amsterdam.",
+    "emailPlaceholder": "Tu email",
+    "cta": "Unite a la lista de espera",
+    "success": "¡Listo! Te avisamos cuando lancemos.",
+    "sending": "Enviando..."
+  },
+  "gallery": {
+    "title": "Nuestros diseños",
+    "subtitle": "Cada mate cuenta una historia. Elegí el tuyo o creá uno desde cero.",
+    "items": {
+      "fileteado": "Fileteado Porteño",
+      "pampa": "Pampa Geométrica",
+      "tango": "Tango Abstracto",
+      "botanico": "Botánico Nativo",
+      "amsterdam": "Amsterdam × Buenos Aires",
+      "custom": "Tu Diseño Custom"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "step1": {
+      "title": "Elegí tu diseño",
+      "description": "Seleccioná uno de nuestros diseños o mandanos tu idea personalizada."
+    },
+    "step2": {
+      "title": "Lo grabamos con láser",
+      "description": "Cada mate es grabado a mano con tecnología láser de alta precisión."
+    },
+    "step3": {
+      "title": "Te lo entregamos",
+      "description": "Recibilo en tu puerta en Amsterdam o te lo enviamos a donde estés."
+    }
+  },
+  "about": {
+    "title": "Quiénes somos",
+    "text1": "Somos argentinos viviendo en Amsterdam que extrañábamos tomar mate con un mate que cuente nuestra historia.",
+    "text2": "Mateico nació de esa nostalgia: mates artesanales con grabado láser que fusionan la identidad argentina con el diseño contemporáneo. Cada pieza es única, como cada persona que la lleva.",
+    "text3": "Desde Amsterdam para el mundo, con alma rioplatense."
+  },
+  "orderForm": {
+    "title": "Pedí tu mate personalizado",
+    "subtitle": "Contanos qué tenés en mente y te armamos una propuesta.",
+    "name": "Tu nombre",
+    "email": "Tu email",
+    "mateType": "Tipo de mate",
+    "mateTypes": {
+      "calabaza": "Calabaza",
+      "madera": "Madera",
+      "ceramica": "Cerámica",
+      "vidrio": "Vidrio"
+    },
+    "design": "Describí tu diseño ideal",
+    "designPlaceholder": "Ej: Quiero un mate con el skyline de Amsterdam mezclado con el Obelisco...",
+    "submit": "Enviar pedido",
+    "success": "¡Pedido enviado! Te contactamos pronto.",
+    "sending": "Enviando..."
+  },
+  "footer": {
+    "tagline": "Mates personalizados con alma argentina, hechos en Amsterdam.",
+    "contact": "Contacto",
+    "followUs": "Seguinos",
+    "rights": "Todos los derechos reservados."
+  }
+}

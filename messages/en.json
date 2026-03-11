@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Mateico — Custom laser-engraved mates in Amsterdam",
+    "description": "Handcrafted personalized mates with laser engraving. Unique design, Argentine identity, made in Amsterdam. Join the waitlist."
+  },
+  "header": {
+    "logo": "Mateico",
+    "waitlist": "Join waitlist"
+  },
+  "hero": {
+    "title": "Your mate, your story",
+    "subtitle": "Handcrafted personalized mates with laser engraving. Unique design, Argentine identity, made in Amsterdam.",
+    "emailPlaceholder": "Your email",
+    "cta": "Join the waitlist",
+    "success": "You're in! We'll let you know when we launch.",
+    "sending": "Sending..."
+  },
+  "gallery": {
+    "title": "Our designs",
+    "subtitle": "Every mate tells a story. Pick yours or create one from scratch.",
+    "items": {
+      "fileteado": "Fileteado Porteño",
+      "pampa": "Geometric Pampa",
+      "tango": "Abstract Tango",
+      "botanico": "Native Botanical",
+      "amsterdam": "Amsterdam × Buenos Aires",
+      "custom": "Your Custom Design"
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": {
+      "title": "Choose your design",
+      "description": "Pick one of our designs or send us your personalized idea."
+    },
+    "step2": {
+      "title": "We laser-engrave it",
+      "description": "Each mate is hand-engraved with high-precision laser technology."
+    },
+    "step3": {
+      "title": "We deliver it to you",
+      "description": "Get it at your door in Amsterdam or we ship it wherever you are."
+    }
+  },
+  "about": {
+    "title": "About us",
+    "text1": "We're Argentines living in Amsterdam who missed drinking mate from a mate that tells our story.",
+    "text2": "Mateico was born from that nostalgia: handcrafted mates with laser engraving that blend Argentine identity with contemporary design. Every piece is unique, just like the person who carries it.",
+    "text3": "From Amsterdam to the world, with River Plate soul."
+  },
+  "orderForm": {
+    "title": "Order your custom mate",
+    "subtitle": "Tell us what you have in mind and we'll put together a proposal.",
+    "name": "Your name",
+    "email": "Your email",
+    "mateType": "Mate type",
+    "mateTypes": {
+      "calabaza": "Gourd",
+      "madera": "Wood",
+      "ceramica": "Ceramic",
+      "vidrio": "Glass"
+    },
+    "design": "Describe your ideal design",
+    "designPlaceholder": "E.g.: I want a mate with the Amsterdam skyline mixed with the Obelisco...",
+    "submit": "Send order",
+    "success": "Order sent! We'll get back to you soon.",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "tagline": "Custom mates with Argentine soul, made in Amsterdam.",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "All rights reserved."
+  }
+}

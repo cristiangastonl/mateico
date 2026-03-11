@@ -1,0 +1,70 @@
+.footer {
+  background: var(--color-green-dark);
+  color: var(--color-cream);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2rem;
+}
+
+.brand {
+  margin-bottom: 2.5rem;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-gold);
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  color: rgba(250, 248, 242, 0.65);
+  font-size: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.column h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-gold);
+  margin-bottom: 0.75rem;
+}
+
+.column a {
+  display: block;
+  color: rgba(250, 248, 242, 0.8);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+
+.column a:hover {
+  color: var(--color-cream);
+}
+
+.bottom {
+  border-top: 1px solid rgba(250, 248, 242, 0.1);
+  padding-top: 1.5rem;
+}
+
+.bottom p {
+  font-size: 0.85rem;
+  color: rgba(250, 248, 242, 0.4);
+}
+
+@media (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
