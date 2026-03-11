@@ -2,11 +2,10 @@
 
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import Image from "next/image";
-import styles from "./Hero.module.css";
+import styles from "./WaitlistCta.module.css";
 
-export function Hero() {
-  const t = useTranslations("hero");
+export function WaitlistCta() {
+  const t = useTranslations("waitlistCta");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
 
@@ -29,26 +28,17 @@ export function Hero() {
   }
 
   return (
-    <section id="waitlist" className={styles.hero} aria-labelledby="hero-title">
-      <Image
-        src="/mates/river-plate.jpg"
-        alt=""
-        fill
-        priority
-        className={styles.bgImage}
-        sizes="100vw"
-      />
-      <div className={styles.overlay} />
+    <section className={styles.section}>
       <div className={styles.inner}>
-        <h1 id="hero-title" className={styles.title}>{t("title")}</h1>
+        <h2 className={styles.title}>{t("title")}</h2>
         <p className={styles.subtitle}>{t("subtitle")}</p>
         {status === "sent" ? (
           <p className={styles.success} role="status" aria-live="polite">{t("success")}</p>
         ) : (
-          <form onSubmit={handleSubmit} className={styles.form} aria-label={t("formLabel")}>
-            <label htmlFor="waitlist-email" className="srOnly">{t("emailPlaceholder")}</label>
+          <form onSubmit={handleSubmit} className={styles.form}>
+            <label htmlFor="cta-email" className="srOnly">{t("emailPlaceholder")}</label>
             <input
-              id="waitlist-email"
+              id="cta-email"
               type="email"
               required
               value={email}

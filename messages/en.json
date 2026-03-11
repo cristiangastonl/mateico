@@ -1,73 +1,67 @@
 {
   "meta": {
     "title": "Mateico — Custom laser-engraved mates in Amsterdam",
-    "description": "Handcrafted personalized mates with laser engraving. Unique design, Argentine identity, made in Amsterdam. Join the waitlist."
+    "description": "Handcrafted mates with custom laser engraving. Your story, engraved by hand. Football, family, love, anime and more. From Amsterdam."
   },
   "header": {
     "logo": "Mateico",
-    "waitlist": "Join waitlist",
-    "navigation": "Main navigation",
     "switchLang": "Switch to Spanish",
     "skipToContent": "Skip to content"
   },
   "hero": {
-    "title": "Your mate, your story",
-    "subtitle": "Handcrafted personalized mates with laser engraving. Unique design, Argentine identity, made in Amsterdam.",
+    "title": "Your story, engraved by hand",
+    "subtitle": "Handcrafted mates with custom laser engraving. Each piece is unique, just like you.",
     "emailPlaceholder": "Your email",
-    "cta": "Join the waitlist",
+    "cta": "I want mine",
     "success": "You're in! We'll let you know when we launch.",
     "sending": "Sending...",
-    "formLabel": "Waitlist signup form"
+    "formLabel": "Waitlist signup"
   },
-  "gallery": {
-    "title": "Our designs",
-    "subtitle": "Every mate tells a story. Pick yours or create one from scratch.",
+  "showcase": {
+    "title": "See what we make",
+    "prev": "Previous",
+    "next": "Next",
     "items": {
-      "fileteado": "Fileteado Porteño",
-      "pampa": "Geometric Pampa",
-      "tango": "Abstract Tango",
-      "botanico": "Native Botanical",
-      "amsterdam": "Amsterdam × Buenos Aires",
-      "custom": "Your Custom Design"
+      "river": "River Plate engraving — passion in every detail",
+      "familia": "\"A mother's love is unbeatable\" — for your loved ones",
+      "amor": "Personalized with name and message — a gift that moves",
+      "tipos": "Wood, gourd, leather — choose your style",
+      "laser": "High-precision laser engraving on wood",
+      "riverBombilla": "Complete mate with bombilla — ready to brew"
     }
   },
-  "howItWorks": {
-    "title": "How it works",
-    "step1": {
-      "title": "Choose your design",
-      "description": "Pick one of our designs or send us your personalized idea."
-    },
-    "step2": {
-      "title": "We laser-engrave it",
-      "description": "Each mate is hand-engraved with high-precision laser technology."
-    },
-    "step3": {
-      "title": "We deliver it to you",
-      "description": "Get it at your door in Amsterdam or we ship it wherever you are."
-    }
+  "categories": {
+    "title": "Find your mate",
+    "subtitle": "Every passion deserves its mate. What's yours?",
+    "futbol": "Fútbol",
+    "futbolDesc": "River, Boca, your beloved club",
+    "familia": "Familia",
+    "familiaDesc": "Names, dates, messages",
+    "amor": "Amor",
+    "amorDesc": "For that special someone",
+    "anime": "Anime",
+    "animeDesc": "Your favorite characters",
+    "argentina": "Argentina",
+    "argentinaDesc": "Home, mate and nostalgia",
+    "bandas": "Bandas",
+    "bandasDesc": "Rock, cumbia, your music",
+    "poesia": "Poesía",
+    "poesiaDesc": "Verses that stay with you",
+    "custom": "Your idea",
+    "customDesc": "Whatever you dream, we engrave it"
   },
-  "about": {
-    "title": "About us",
-    "text1": "We're Argentines living in Amsterdam who missed drinking mate from a mate that tells our story.",
-    "text2": "Mateico was born from that nostalgia: handcrafted mates with laser engraving that blend Argentine identity with contemporary design. Every piece is unique, just like the person who carries it.",
-    "text3": "From Amsterdam to the world, with River Plate soul."
+  "craft": {
+    "title": "Engraved with soul",
+    "text1": "Each mate goes through our hands and a high-precision laser that engraves your design into wood, metal or gourd.",
+    "text2": "This isn't mass production. It's one by one, with patience and care. That's why we have a waiting list.",
+    "text3": "From Amsterdam, with River Plate soul."
   },
-  "orderForm": {
-    "title": "Order your custom mate",
-    "subtitle": "Tell us what you have in mind and we'll put together a proposal.",
-    "name": "Your name",
-    "email": "Your email",
-    "mateType": "Mate type",
-    "mateTypes": {
-      "calabaza": "Gourd",
-      "madera": "Wood",
-      "ceramica": "Ceramic",
-      "vidrio": "Glass"
-    },
-    "design": "Describe your ideal design",
-    "designPlaceholder": "E.g.: I want a mate with the Amsterdam skyline mixed with the Obelisco...",
-    "submit": "Send order",
-    "success": "Order sent! We'll get back to you soon.",
+  "waitlistCta": {
+    "title": "Want yours?",
+    "subtitle": "Leave your email and we'll let you know when it's your turn.",
+    "emailPlaceholder": "Your email",
+    "cta": "Join the list",
+    "success": "You're in! We'll write to you soon.",
     "sending": "Sending..."
   },
   "footer": {

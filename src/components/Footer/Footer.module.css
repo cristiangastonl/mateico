@@ -6,45 +6,47 @@
 .inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 4rem 1.5rem 2rem;
+  padding: 3rem 1.5rem 1.5rem;
 }
 
-.brand {
-  margin-bottom: 2.5rem;
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
 }
 
 .logo {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--color-gold);
 }
 
 .tagline {
-  margin-top: 0.5rem;
-  color: rgba(250, 248, 242, 0.65);
-  font-size: 1rem;
+  margin-top: 0.4rem;
+  color: rgba(250, 248, 242, 0.6);
+  font-size: 0.95rem;
+  max-width: 300px;
 }
 
 .links {
   display: flex;
-  gap: 4rem;
-  margin-bottom: 3rem;
+  gap: 3rem;
 }
 
 .column h4 {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-gold);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .column a {
   display: block;
   color: rgba(250, 248, 242, 0.8);
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
   transition: color 0.2s;
 }
 
@@ -54,17 +56,21 @@
 
 .bottom {
   border-top: 1px solid rgba(250, 248, 242, 0.1);
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
 }
 
 .bottom p {
-  font-size: 0.85rem;
-  color: rgba(250, 248, 242, 0.6);
+  font-size: 0.8rem;
+  color: rgba(250, 248, 242, 0.4);
 }
 
 @media (max-width: 768px) {
-  .links {
+  .top {
     flex-direction: column;
+    gap: 2rem;
+  }
+
+  .links {
     gap: 2rem;
   }
 }

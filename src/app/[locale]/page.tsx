@@ -1,10 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import { Header } from "@/components/Header/Header";
 import { Hero } from "@/components/Hero/Hero";
-import { Gallery } from "@/components/Gallery/Gallery";
-import { HowItWorks } from "@/components/HowItWorks/HowItWorks";
-import { About } from "@/components/About/About";
-import { OrderForm } from "@/components/OrderForm/OrderForm";
+import { Showcase } from "@/components/Showcase/Showcase";
+import { Categories } from "@/components/Categories/Categories";
+import { Craft } from "@/components/Craft/Craft";
+import { WaitlistCta } from "@/components/WaitlistCta/WaitlistCta";
 import { Footer } from "@/components/Footer/Footer";
 
 export default async function Home() {
@@ -18,10 +18,10 @@ export default async function Home() {
       <Header />
       <main id="main-content">
         <Hero />
-        <Gallery />
-        <HowItWorks />
-        <About />
-        <OrderForm />
+        <Showcase />
+        <Categories />
+        <Craft />
+        <WaitlistCta />
       </main>
       <Footer />
     </>

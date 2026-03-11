@@ -1,73 +1,67 @@
 {
   "meta": {
     "title": "Mateico — Mates personalizados con grabado láser en Amsterdam",
-    "description": "Mates artesanales personalizados con grabado láser. Diseño único, identidad argentina, hecho en Amsterdam. Unite a la lista de espera."
+    "description": "Mates artesanales con grabado láser personalizado. Tu historia, grabada a mano. Fútbol, familia, amor, anime y más. Desde Amsterdam."
   },
   "header": {
     "logo": "Mateico",
-    "waitlist": "Lista de espera",
-    "navigation": "Navegación principal",
     "switchLang": "Cambiar a inglés",
     "skipToContent": "Ir al contenido"
   },
   "hero": {
-    "title": "Tu mate, tu historia",
-    "subtitle": "Mates artesanales personalizados con grabado láser. Diseño único, identidad argentina, hecho en Amsterdam.",
+    "title": "Tu historia, grabada a mano",
+    "subtitle": "Mates artesanales con grabado láser personalizado. Cada pieza es única, como vos.",
     "emailPlaceholder": "Tu email",
-    "cta": "Unite a la lista de espera",
+    "cta": "Quiero el mío",
     "success": "¡Listo! Te avisamos cuando lancemos.",
     "sending": "Enviando...",
-    "formLabel": "Formulario de lista de espera"
+    "formLabel": "Lista de espera"
   },
-  "gallery": {
-    "title": "Nuestros diseños",
-    "subtitle": "Cada mate cuenta una historia. Elegí el tuyo o creá uno desde cero.",
+  "showcase": {
+    "title": "Mirá lo que hacemos",
+    "prev": "Anterior",
+    "next": "Siguiente",
     "items": {
-      "fileteado": "Fileteado Porteño",
-      "pampa": "Pampa Geométrica",
-      "tango": "Tango Abstracto",
-      "botanico": "Botánico Nativo",
-      "amsterdam": "Amsterdam × Buenos Aires",
-      "custom": "Tu Diseño Custom"
+      "river": "Grabado River Plate — pasión millonaria en cada detalle",
+      "familia": "\"El amor de Mamá es insuperable\" — para los que más querés",
+      "amor": "Personalizado con nombre y mensaje — un regalo que emociona",
+      "tipos": "Madera, calabaza, cuero — elegí tu estilo",
+      "laser": "Grabado láser de alta precisión sobre madera",
+      "riverBombilla": "Mate completo con bombilla — listo para cebar"
     }
   },
-  "howItWorks": {
-    "title": "Cómo funciona",
-    "step1": {
-      "title": "Elegí tu diseño",
-      "description": "Seleccioná uno de nuestros diseños o mandanos tu idea personalizada."
-    },
-    "step2": {
-      "title": "Lo grabamos con láser",
-      "description": "Cada mate es grabado a mano con tecnología láser de alta precisión."
-    },
-    "step3": {
-      "title": "Te lo entregamos",
-      "description": "Recibilo en tu puerta en Amsterdam o te lo enviamos a donde estés."
-    }
+  "categories": {
+    "title": "Encontrá tu mate",
+    "subtitle": "Cada pasión merece su mate. ¿Cuál es la tuya?",
+    "futbol": "Fútbol",
+    "futbolDesc": "River, Boca, tu club del alma",
+    "familia": "Familia",
+    "familiaDesc": "Nombres, fechas, mensajes",
+    "amor": "Amor",
+    "amorDesc": "Para esa persona especial",
+    "anime": "Anime",
+    "animeDesc": "Tus personajes favoritos",
+    "argentina": "Argentina",
+    "argentinaDesc": "Patria, mate y nostalgia",
+    "bandas": "Bandas",
+    "bandasDesc": "Rock, cumbia, tu música",
+    "poesia": "Poesía",
+    "poesiaDesc": "Versos que acompañan",
+    "custom": "Tu idea",
+    "customDesc": "Lo que se te ocurra, lo grabamos"
   },
-  "about": {
-    "title": "Quiénes somos",
-    "text1": "Somos argentinos viviendo en Amsterdam que extrañábamos tomar mate con un mate que cuente nuestra historia.",
-    "text2": "Mateico nació de esa nostalgia: mates artesanales con grabado láser que fusionan la identidad argentina con el diseño contemporáneo. Cada pieza es única, como cada persona que la lleva.",
-    "text3": "Desde Amsterdam para el mundo, con alma rioplatense."
+  "craft": {
+    "title": "Grabado con alma",
+    "text1": "Cada mate pasa por nuestras manos y por un láser de alta precisión que graba tu diseño en la madera, el metal o la calabaza.",
+    "text2": "No es producción en serie. Es uno a uno, con paciencia y detalle. Por eso tenemos lista de espera.",
+    "text3": "Desde Amsterdam, con alma rioplatense."
   },
-  "orderForm": {
-    "title": "Pedí tu mate personalizado",
-    "subtitle": "Contanos qué tenés en mente y te armamos una propuesta.",
-    "name": "Tu nombre",
-    "email": "Tu email",
-    "mateType": "Tipo de mate",
-    "mateTypes": {
-      "calabaza": "Calabaza",
-      "madera": "Madera",
-      "ceramica": "Cerámica",
-      "vidrio": "Vidrio"
-    },
-    "design": "Describí tu diseño ideal",
-    "designPlaceholder": "Ej: Quiero un mate con el skyline de Amsterdam mezclado con el Obelisco...",
-    "submit": "Enviar pedido",
-    "success": "¡Pedido enviado! Te contactamos pronto.",
+  "waitlistCta": {
+    "title": "¿Querés el tuyo?",
+    "subtitle": "Dejá tu email y te avisamos cuando esté tu turno.",
+    "emailPlaceholder": "Tu email",
+    "cta": "Unite a la lista",
+    "success": "¡Ya estás! Te escribimos pronto.",
     "sending": "Enviando..."
   },
   "footer": {

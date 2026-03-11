@@ -22,18 +22,13 @@ export function Header() {
         <a href={`/${locale}`} className={styles.logo}>
           {t("logo")}
         </a>
-        <nav className={styles.nav} aria-label={t("navigation")}>
-          <a href="#waitlist" className={styles.cta}>
-            {t("waitlist")}
-          </a>
-          <button
-            onClick={switchLocale}
-            className={styles.langToggle}
-            aria-label={t("switchLang")}
-          >
-            {locale === "es" ? "EN" : "ES"}
-          </button>
-        </nav>
+        <button
+          onClick={switchLocale}
+          className={styles.langToggle}
+          aria-label={t("switchLang")}
+        >
+          {locale === "es" ? "EN" : "ES"}
+        </button>
       </div>
     </header>
   );
