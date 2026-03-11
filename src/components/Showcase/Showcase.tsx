@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import styles from "./Showcase.module.css";
 
@@ -14,18 +14,43 @@ const slides = [
   { key: "riverBombilla", src: "/mates/river-bombilla.jpg" },
 ];
 
+const AUTO_INTERVAL = 4000;
+
 export function Showcase() {
   const t = useTranslations("showcase");
   const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  const next = useCallback(() => {
+    setCurrent((prev) => (prev + 1) % slides.length);
+  }, []);
 
   function go(dir: -1 | 1) {
     setCurrent((prev) => (prev + dir + slides.length) % slides.length);
+    setPaused(true);
+    setTimeout(() => setPaused(false), 8000);
   }
+
+  function goTo(i: number) {
+    setCurrent(i);
+    setPaused(true);
+    setTimeout(() => setPaused(false), 8000);
+  }
+
+  useEffect(() => {
+    if (paused) return;
+    const timer = setInterval(next, AUTO_INTERVAL);
+    return () => clearInterval(timer);
+  }, [paused, next]);
 
   return (
     <section className={styles.section} aria-labelledby="showcase-title">
       <h2 id="showcase-title" className="sectionTitle">{t("title")}</h2>
-      <div className={styles.carousel}>
+      <div
+        className={styles.carousel}
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+      >
         <button
           onClick={() => go(-1)}
           className={styles.arrow}
@@ -65,7 +90,7 @@ export function Showcase() {
         {slides.map((slide, i) => (
           <button
             key={slide.key}
-            onClick={() => setCurrent(i)}
+            onClick={() => goTo(i)}
             className={`${styles.dot} ${i === current ? styles.dotActive : ""}`}
             aria-label={`${i + 1} / ${slides.length}`}
           />
