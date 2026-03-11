@@ -59,7 +59,7 @@
 
 .bottom p {
   font-size: 0.85rem;
-  color: rgba(250, 248, 242, 0.4);
+  color: rgba(250, 248, 242, 0.6);
 }
 
 @media (max-width: 768px) {

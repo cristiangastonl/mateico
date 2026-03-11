@@ -5,7 +5,10 @@
   },
   "header": {
     "logo": "Mateico",
-    "waitlist": "Join waitlist"
+    "waitlist": "Join waitlist",
+    "navigation": "Main navigation",
+    "switchLang": "Switch to Spanish",
+    "skipToContent": "Skip to content"
   },
   "hero": {
     "title": "Your mate, your story",
@@ -13,7 +16,8 @@
     "emailPlaceholder": "Your email",
     "cta": "Join the waitlist",
     "success": "You're in! We'll let you know when we launch.",
-    "sending": "Sending..."
+    "sending": "Sending...",
+    "formLabel": "Waitlist signup form"
   },
   "gallery": {
     "title": "Our designs",
@@ -70,6 +74,7 @@
     "tagline": "Custom mates with Argentine soul, made in Amsterdam.",
     "contact": "Contact",
     "followUs": "Follow us",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "footerNav": "Footer links"
   }
 }

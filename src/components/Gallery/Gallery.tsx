@@ -14,14 +14,14 @@ export function Gallery() {
   const t = useTranslations("gallery");
 
   return (
-    <section id="gallery" className="section">
-      <h2 className="sectionTitle">{t("title")}</h2>
+    <section id="gallery" className="section" aria-labelledby="gallery-title">
+      <h2 id="gallery-title" className="sectionTitle">{t("title")}</h2>
       <p className="sectionSubtitle">{t("subtitle")}</p>
-      <div className={styles.grid}>
+      <div className={styles.grid} role="list">
         {designs.map((d) => (
-          <div key={d.key} className={styles.card}>
+          <div key={d.key} className={styles.card} role="listitem">
             <div className={styles.placeholder} style={{ backgroundColor: d.color + "15" }}>
-              <svg viewBox="0 0 120 140" className={styles.svg}>
+              <svg viewBox="0 0 120 140" className={styles.svg} aria-hidden="true">
                 <ellipse cx="60" cy="85" rx="35" ry="45" fill={d.color + "25"} stroke={d.color} strokeWidth="2" />
                 <ellipse cx="60" cy="45" rx="35" ry="12" fill={d.color + "15"} stroke={d.color} strokeWidth="2" />
                 <path d="M95 85 Q110 85 108 70 Q106 55 95 55" fill="none" stroke={d.color} strokeWidth="2" />

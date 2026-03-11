@@ -32,31 +32,31 @@ export function OrderForm() {
     return (
       <section id="order" className={styles.section}>
         <div className="section">
-          <p className={styles.success}>{t("success")}</p>
+          <p className={styles.success} role="status" aria-live="polite">{t("success")}</p>
         </div>
       </section>
     );
   }
 
   return (
-    <section id="order" className={styles.section}>
+    <section id="order" className={styles.section} aria-labelledby="order-title">
       <div className="section">
-        <h2 className="sectionTitle">{t("title")}</h2>
+        <h2 id="order-title" className="sectionTitle">{t("title")}</h2>
         <p className="sectionSubtitle">{t("subtitle")}</p>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.row}>
             <div className={styles.field}>
-              <label htmlFor="name">{t("name")}</label>
-              <input type="text" id="name" name="name" required />
+              <label htmlFor="order-name">{t("name")}</label>
+              <input type="text" id="order-name" name="name" required autoComplete="name" />
             </div>
             <div className={styles.field}>
-              <label htmlFor="email">{t("email")}</label>
-              <input type="email" id="email" name="email" required />
+              <label htmlFor="order-email">{t("email")}</label>
+              <input type="email" id="order-email" name="email" required autoComplete="email" />
             </div>
           </div>
           <div className={styles.field}>
-            <label htmlFor="mateType">{t("mateType")}</label>
-            <select id="mateType" name="mateType" required>
+            <label htmlFor="order-mateType">{t("mateType")}</label>
+            <select id="order-mateType" name="mateType" required>
               <option value="calabaza">{t("mateTypes.calabaza")}</option>
               <option value="madera">{t("mateTypes.madera")}</option>
               <option value="ceramica">{t("mateTypes.ceramica")}</option>
@@ -64,9 +64,9 @@ export function OrderForm() {
             </select>
           </div>
           <div className={styles.field}>
-            <label htmlFor="design">{t("design")}</label>
+            <label htmlFor="order-design">{t("design")}</label>
             <textarea
-              id="design"
+              id="order-design"
               name="design"
               rows={4}
               placeholder={t("designPlaceholder")}

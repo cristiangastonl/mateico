@@ -11,7 +11,7 @@ export function Footer() {
           <span className={styles.logo}>Mateico</span>
           <p className={styles.tagline}>{t("tagline")}</p>
         </div>
-        <div className={styles.links}>
+        <nav className={styles.links} aria-label={t("footerNav")}>
           <div className={styles.column}>
             <h4>{t("contact")}</h4>
             <a href="mailto:hello@mateico.com">hello@mateico.com</a>
@@ -22,7 +22,7 @@ export function Footer() {
               Instagram
             </a>
           </div>
-        </div>
+        </nav>
         <div className={styles.bottom}>
           <p>&copy; {new Date().getFullYear()} Mateico. {t("rights")}</p>
         </div>

@@ -5,7 +5,10 @@
   },
   "header": {
     "logo": "Mateico",
-    "waitlist": "Lista de espera"
+    "waitlist": "Lista de espera",
+    "navigation": "Navegación principal",
+    "switchLang": "Cambiar a inglés",
+    "skipToContent": "Ir al contenido"
   },
   "hero": {
     "title": "Tu mate, tu historia",
@@ -13,7 +16,8 @@
     "emailPlaceholder": "Tu email",
     "cta": "Unite a la lista de espera",
     "success": "¡Listo! Te avisamos cuando lancemos.",
-    "sending": "Enviando..."
+    "sending": "Enviando...",
+    "formLabel": "Formulario de lista de espera"
   },
   "gallery": {
     "title": "Nuestros diseños",
@@ -70,6 +74,7 @@
     "tagline": "Mates personalizados con alma argentina, hechos en Amsterdam.",
     "contact": "Contacto",
     "followUs": "Seguinos",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "footerNav": "Links del pie de página"
   }
 }

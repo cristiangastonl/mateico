@@ -28,21 +28,24 @@ export function Hero() {
   }
 
   return (
-    <section id="waitlist" className={styles.hero}>
+    <section id="waitlist" className={styles.hero} aria-labelledby="hero-title">
       <div className={styles.inner}>
-        <h1 className={styles.title}>{t("title")}</h1>
+        <h1 id="hero-title" className={styles.title}>{t("title")}</h1>
         <p className={styles.subtitle}>{t("subtitle")}</p>
         {status === "sent" ? (
-          <p className={styles.success}>{t("success")}</p>
+          <p className={styles.success} role="status" aria-live="polite">{t("success")}</p>
         ) : (
-          <form onSubmit={handleSubmit} className={styles.form}>
+          <form onSubmit={handleSubmit} className={styles.form} aria-label={t("formLabel")}>
+            <label htmlFor="waitlist-email" className={styles.srOnly}>{t("emailPlaceholder")}</label>
             <input
+              id="waitlist-email"
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t("emailPlaceholder")}
               className={styles.input}
+              autoComplete="email"
             />
             <button type="submit" disabled={status === "sending"} className={styles.button}>
               {status === "sending" ? t("sending") : t("cta")}
