@@ -27,7 +27,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  const baseUrl = "https://mateico.com";
+  const baseUrl = "https://mateico.nl";
 
   return {
     title: t("title"),
@@ -98,7 +98,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                 locale === "es"
                   ? "Mates personalizados con grabado láser en Amsterdam. El regalo argentino perfecto, con envíos a toda Europa."
                   : "Custom laser-engraved mates handcrafted in Amsterdam. The perfect Argentine gift, shipping across Europe.",
-              url: "https://mateico.com",
+              url: "https://mateico.nl",
               email: "hello@mateico.com",
               priceRange: "$$",
               address: {
@@ -114,7 +114,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                 latitude: 52.3676,
                 longitude: 4.9041,
               },
-              image: "https://mateico.com/og-image.png",
+              image: "https://mateico.nl/og-image.png",
               areaServed: {
                 "@type": "Place",
                 name: "Europe",
@@ -129,12 +129,10 @@ export default async function LocaleLayout({ children, params }: Props) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Mateico",
-              url: "https://mateico.com",
-              logo: "https://mateico.com/og-image.png",
+              url: "https://mateico.nl",
+              logo: "https://mateico.nl/og-image.png",
               email: "hello@mateico.com",
-              sameAs: [
-                "https://instagram.com/mateico",
-              ],
+              sameAs: [],
             }),
           }}
         />
@@ -156,7 +154,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                 "@type": "Brand",
                 name: "Mateico",
               },
-              image: "https://mateico.com/og-image.png",
+              image: "https://mateico.nl/og-image.png",
               offers: {
                 "@type": "AggregateOffer",
                 priceCurrency: "EUR",

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://mateico.com/sitemap.xml",
+    sitemap: "https://mateico.nl/sitemap.xml",
   };
 }
