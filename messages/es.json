@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Mateico — Mates personalizados con grabado láser desde Amsterdam",
-    "description": "Mates artesanales con grabado láser. Tu club, tu banda, tu familia — grabados en calabaza, madera o metal. Hechos uno a uno desde Amsterdam."
+    "description": "Mate personalizado con grabado láser desde Amsterdam. El regalo argentino perfecto. Mate custom en calabaza, madera o metal. Envíos a toda Europa."
   },
   "header": {
     "logo": "Mateico",
@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Tu historia, grabada a fuego",
-    "subtitle": "Mates artesanales con grabado láser. Tu club, tu banda, tu familia — cada pieza es única, como vos.",
+    "subtitle": "Mate personalizado con grabado láser. Tu club, tu banda, tu familia — cada pieza es única, como vos.",
     "emailPlaceholder": "Tu email",
     "cta": "Quiero el mío",
     "success": "¡Ya estás! Te avisamos cuando arranquemos.",
@@ -31,7 +31,7 @@
   },
   "categories": {
     "title": "Encontrá tu mate",
-    "subtitle": "Cada pasión merece su mate. ¿Cuál es la tuya?",
+    "subtitle": "Cada pasión merece su mate. El regalo perfecto para vos o para alguien que querés.",
     "futbol": "Fútbol",
     "futbolDesc": "River, Boca, Racing, tu club del alma",
     "familia": "Familia",
@@ -53,7 +53,7 @@
     "title": "Grabado con alma",
     "text1": "Cada mate pasa por nuestras manos y por un láser de alta precisión que graba tu diseño en la calabaza, la madera o el metal.",
     "text2": "No es producción en serie. Es uno a uno, con paciencia y detalle. Por eso tenemos lista de espera, vale la pena 😉",
-    "text3": "Desde Amsterdam, con las manos en la madera y el corazón en el sur."
+    "text3": "Desde Amsterdam a toda Europa, con las manos en la madera y el corazón en el sur."
   },
   "waitlistCta": {
     "title": "¿Querés el tuyo?",
@@ -81,6 +81,21 @@
       "mateClasico": "Mate de calabaza con yerba y bombilla — el ritual de siempre",
       "campeonesMundo": "Campeones del Mundo 78 · 86 · 22 — las tres estrellas doradas"
     }
+  },
+  "faq": {
+    "title": "Preguntas que siempre nos hacen",
+    "q1": "¿Cómo funciona?",
+    "a1": "Elegís lo que querés grabar (tu club, tu banda, un nombre, una frase), nos mandás la idea por email y nosotros diseñamos el grabado. Cuando lo aprobás, lo grabamos con láser y te lo mandamos.",
+    "q2": "¿Qué se puede grabar?",
+    "a2": "Todo lo que se te ocurra. Escudos de fútbol, personajes de anime, frases, nombres, fechas, logos de bandas, diseños propios... si se puede dibujar, se puede grabar.",
+    "q3": "¿Hacen envíos?",
+    "a3": "Sí, hacemos envíos a toda Europa. Estamos en Amsterdam pero mandamos a donde estés.",
+    "q4": "¿Cuánto tarda?",
+    "a4": "Depende de la complejidad del diseño, pero en general entre 1 y 2 semanas desde que aprobás el diseño.",
+    "q5": "¿Qué materiales usan?",
+    "a5": "Trabajamos con calabaza, madera y metal. Cada material tiene su encanto y el láser queda distinto en cada uno.",
+    "q6": "¿Puedo pedir uno de regalo?",
+    "a6": "¡Claro! Es uno de los pedidos que más nos hacen. Podemos grabarlo con el nombre de la persona, una fecha especial o lo que quieras."
   },
   "footer": {
     "tagline": "Mates con alma argentina, grabados a mano en Amsterdam.",

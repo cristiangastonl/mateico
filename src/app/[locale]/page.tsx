@@ -5,6 +5,7 @@ import { Showcase } from "@/components/Showcase/Showcase";
 import { Categories } from "@/components/Categories/Categories";
 import { Ideas } from "@/components/Ideas/Ideas";
 import { Craft } from "@/components/Craft/Craft";
+import { Faq } from "@/components/Faq/Faq";
 import { WaitlistCta } from "@/components/WaitlistCta/WaitlistCta";
 import { Footer } from "@/components/Footer/Footer";
 
@@ -23,6 +24,7 @@ export default async function Home() {
         <Categories />
         <Ideas />
         <Craft />
+        <Faq />
         <WaitlistCta />
       </main>
       <Footer />

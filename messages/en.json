@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Mateico — Custom laser-engraved mates from Amsterdam",
-    "description": "Handcrafted mates with custom laser engraving. Your club, your band, your family — engraved on gourd, wood or metal. Made one by one from Amsterdam."
+    "description": "Custom mate with laser engraved designs from Amsterdam. The perfect Argentine gift. Personalized mate on gourd, wood or metal. Shipping across Europe."
   },
   "header": {
     "logo": "Mateico",
@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Your story, engraved by fire",
-    "subtitle": "Handcrafted mates with custom laser engraving. Your club, your band, your family — each piece is unique, just like you.",
+    "subtitle": "Personalized mate with custom laser engraving. Your club, your band, your family — each piece is unique, just like you.",
     "emailPlaceholder": "Your email",
     "cta": "I want mine",
     "success": "You're in! We'll let you know when we launch.",
@@ -31,7 +31,7 @@
   },
   "categories": {
     "title": "Find your mate",
-    "subtitle": "Every passion deserves its mate. What's yours?",
+    "subtitle": "Every passion deserves its mate. The perfect Argentine gift for you or someone you love.",
     "futbol": "Fútbol",
     "futbolDesc": "River, Boca, Racing, your beloved club",
     "familia": "Family",
@@ -53,7 +53,7 @@
     "title": "Engraved with soul",
     "text1": "Each mate goes through our hands and a high-precision laser that engraves your design into gourd, wood or metal.",
     "text2": "This isn't mass production. It's one by one, with patience and care. That's why we have a waiting list, it's worth it 😉",
-    "text3": "From Amsterdam, with our hands on the wood and our hearts in the south."
+    "text3": "From Amsterdam to all of Europe, with our hands on the wood and our hearts in the south."
   },
   "waitlistCta": {
     "title": "Want yours?",
@@ -81,6 +81,21 @@
       "mateClasico": "Gourd mate with yerba and bombilla — the timeless ritual",
       "campeonesMundo": "World Champions 78 · 86 · 22 — the three golden stars"
     }
+  },
+  "faq": {
+    "title": "Questions we always get",
+    "q1": "How does it work?",
+    "a1": "You pick what you want engraved (your club, your band, a name, a phrase), send us the idea by email and we design the engraving. Once you approve it, we laser-engrave it and ship it to you.",
+    "q2": "What can you engrave?",
+    "a2": "Anything you can think of. Football crests, anime characters, quotes, names, dates, band logos, your own designs... if it can be drawn, it can be engraved.",
+    "q3": "Do you ship internationally?",
+    "a3": "Yes, we ship all across Europe. We're based in Amsterdam but we deliver wherever you are.",
+    "q4": "How long does it take?",
+    "a4": "It depends on the complexity of the design, but generally between 1 and 2 weeks from the moment you approve the design.",
+    "q5": "What materials do you use?",
+    "a5": "We work with gourd, wood and metal. Each material has its own charm and the laser finish looks different on each one.",
+    "q6": "Can I order one as a gift?",
+    "a6": "Absolutely! It's one of the most popular requests we get. We can engrave it with the person's name, a special date, or whatever you'd like."
   },
   "footer": {
     "tagline": "Mates with Argentine soul, handcrafted in Amsterdam.",
