@@ -8,7 +8,7 @@ import styles from "./Hero.module.css";
 export function Hero() {
   const t = useTranslations("hero");
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -16,23 +16,25 @@ export function Hero() {
 
     setStatus("sending");
     try {
-      await fetch("https://formspree.io/f/xpwzgkjq", {
+      const res = await fetch("https://formsubmit.co/ajax/cristiangastonl@gmail.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, _subject: "Mateico Waitlist" }),
+        body: JSON.stringify({ email, _subject: "Mateico Waitlist – Hero" }),
       });
+      if (!res.ok) throw new Error();
       setStatus("sent");
       setEmail("");
     } catch {
-      setStatus("idle");
+      setStatus("error");
+      setTimeout(() => setStatus("idle"), 3000);
     }
   }
 
   return (
     <section id="waitlist" className={styles.hero} aria-labelledby="hero-title">
       <Image
-        src="/mates/river-plate.jpg"
-        alt=""
+        src="/mates/river-plate.webp"
+        alt="Mate artesanal con grabado láser personalizado"
         fill
         priority
         className={styles.bgImage}
@@ -44,6 +46,8 @@ export function Hero() {
         <p className={styles.subtitle}>{t("subtitle")}</p>
         {status === "sent" ? (
           <p className={styles.success} role="status" aria-live="polite">{t("success")}</p>
+        ) : status === "error" ? (
+          <p className={styles.error} role="alert">{t("error")}</p>
         ) : (
           <form onSubmit={handleSubmit} className={styles.form} aria-label={t("formLabel")}>
             <label htmlFor="waitlist-email" className="srOnly">{t("emailPlaceholder")}</label>

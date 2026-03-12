@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mateico — Mates personalizados con grabado láser en Amsterdam",
-    "description": "Mates artesanales con grabado láser personalizado. Tu historia, grabada a mano. Fútbol, familia, amor, anime y más. Desde Amsterdam."
+    "title": "Mateico — Mates personalizados con grabado láser desde Amsterdam",
+    "description": "Mates artesanales con grabado láser. Tu club, tu banda, tu familia — grabados en calabaza, madera o metal. Hechos uno a uno desde Amsterdam."
   },
   "header": {
     "logo": "Mateico",
@@ -9,63 +9,81 @@
     "skipToContent": "Ir al contenido"
   },
   "hero": {
-    "title": "Tu historia, grabada a mano",
-    "subtitle": "Mates artesanales con grabado láser personalizado. Cada pieza es única, como vos.",
+    "title": "Tu historia, grabada a fuego",
+    "subtitle": "Mates artesanales con grabado láser. Tu club, tu banda, tu familia — cada pieza es única, como vos.",
     "emailPlaceholder": "Tu email",
     "cta": "Quiero el mío",
-    "success": "¡Listo! Te avisamos cuando lancemos.",
-    "sending": "Enviando...",
+    "success": "¡Ya estás! Te avisamos cuando arranquemos.",
+    "error": "Algo falló, probá de nuevo en un toque.",
+    "sending": "Mandando...",
     "formLabel": "Lista de espera"
   },
   "showcase": {
-    "title": "Mirá lo que hacemos",
-    "prev": "Anterior",
-    "next": "Siguiente",
-    "items": {
-      "river": "Mate de calabaza grabado con diseño de Patagonia y bombilla",
-      "familia": "Mate cerámico artesanal con diseño tradicional y bombilla de metal",
-      "amor": "Mate cerámico con grabado decorativo estilo precolombino",
-      "tipos": "Mate artesanal con incienso — el ritual del mate",
-      "laser": "Láser de alta precisión grabando diseño sobre madera",
-      "riverBombilla": "Mate de calabaza con termo listo para cebar en el parque"
+    "title": "El ritual no se negocia",
+    "text1": "No importa en qué parte del mundo estés. Si sos argentino, el mate es tu casa. Es la ronda con amigos, la mañana en silencio, el abrazo que no necesita palabras.",
+    "text2": "En Mateico grabamos lo que más querés en el mate que te acompaña todos los días. Tu club, tu banda, tu familia, tu frase — para que cada vez que cebés, te sientas en casa.",
+    "highlight": "Porque todo argentino, esté donde esté, merece sentirse como en casa.",
+    "images": {
+      "campeonBandera": "Mate Campeón del Mundo con bandera argentina de fondo",
+      "campeonRosamonte": "Mate Campeón del Mundo con Rosamonte listo para cebar",
+      "mateClasico": "Mate clásico de calabaza con yerba y bombilla"
     }
   },
   "categories": {
     "title": "Encontrá tu mate",
     "subtitle": "Cada pasión merece su mate. ¿Cuál es la tuya?",
     "futbol": "Fútbol",
-    "futbolDesc": "River, Boca, tu club del alma",
+    "futbolDesc": "River, Boca, Racing, tu club del alma",
     "familia": "Familia",
-    "familiaDesc": "Nombres, fechas, mensajes",
+    "familiaDesc": "Nombres, fechas, lo que te une",
     "amor": "Amor",
-    "amorDesc": "Para esa persona especial",
+    "amorDesc": "Para esa persona que te vuela la cabeza",
     "anime": "Anime",
-    "animeDesc": "Tus personajes favoritos",
+    "animeDesc": "Goku, Naruto, tus personajes",
     "argentina": "Argentina",
-    "argentinaDesc": "Patria, mate y nostalgia",
+    "argentinaDesc": "Patria, mate y nostalgia de allá",
     "bandas": "Bandas",
-    "bandasDesc": "Rock, cumbia, tu música",
+    "bandasDesc": "La Renga, Redondos, tu rock",
     "poesia": "Poesía",
-    "poesiaDesc": "Versos que acompañan",
+    "poesiaDesc": "Versos que acompañan cada mateada",
     "custom": "Tu idea",
-    "customDesc": "Lo que se te ocurra, lo grabamos"
+    "customDesc": "Mandanos lo que se te ocurra y lo grabamos"
   },
   "craft": {
     "title": "Grabado con alma",
-    "text1": "Cada mate pasa por nuestras manos y por un láser de alta precisión que graba tu diseño en la madera, el metal o la calabaza.",
-    "text2": "No es producción en serie. Es uno a uno, con paciencia y detalle. Por eso tenemos lista de espera.",
+    "text1": "Cada mate pasa por nuestras manos y por un láser de alta precisión que graba tu diseño en la calabaza, la madera o el metal.",
+    "text2": "No es producción en serie. Es uno a uno, con paciencia y detalle. Por eso tenemos lista de espera — vale la pena.",
     "text3": "Desde Amsterdam, con las manos en la madera y el corazón en el sur."
   },
   "waitlistCta": {
     "title": "¿Querés el tuyo?",
-    "subtitle": "Dejá tu email y te avisamos cuando esté tu turno.",
+    "subtitle": "Dejá tu email y te avisamos cuando esté tu turno. No spameamos, prometido.",
     "emailPlaceholder": "Tu email",
-    "cta": "Unite a la lista",
-    "success": "¡Ya estás! Te escribimos pronto.",
-    "sending": "Enviando..."
+    "cta": "Anotame",
+    "success": "¡Listo, crack! Te escribimos pronto.",
+    "error": "Falló algo, probá de nuevo.",
+    "sending": "Mandando..."
+  },
+  "ideas": {
+    "title": "Ideas que podés tener",
+    "subtitle": "Mirá lo que se puede hacer. ¿Cuál te copa más?",
+    "hint": "Deslizá para ver más →",
+    "items": {
+      "campeonBandera": "Campeón del Mundo — con escudo y bandera argentina de fondo",
+      "bocaJuniors": "Boca Juniors — La Bombonera, Riquelme y toda la mística xeneize",
+      "laRenga": "La Renga — rock nacional grabado en mate imperial negro",
+      "amorFrase": "\"Donde la vida comienza y el amor nunca termina\"",
+      "campeonRosamonte": "Campeón del Mundo — con Rosamonte lista para cebar",
+      "dragonBall": "Dragon Ball Z — Goku, Vegeta y las esferas del dragón",
+      "riverAgustin": "River Plate con nombre — personalizado para vos",
+      "musicaFrase": "\"Música no es lo que hago, es lo que soy\"",
+      "personalizadoFacu": "Mate con tu nombre grabado — ideal para regalar",
+      "mateClasico": "Mate de calabaza con yerba y bombilla — el ritual de siempre",
+      "campeonesMundo": "Campeones del Mundo 78 · 86 · 22 — las tres estrellas doradas"
+    }
   },
   "footer": {
-    "tagline": "Mates personalizados con alma argentina, hechos en Amsterdam.",
+    "tagline": "Mates con alma argentina, grabados a mano en Amsterdam.",
     "contact": "Contacto",
     "followUs": "Seguinos",
     "rights": "Todos los derechos reservados.",

@@ -11,7 +11,7 @@ export function Craft() {
         <div className={styles.images}>
           <div className={styles.imageWrap}>
             <Image
-              src="/mates/laser-close.jpg"
+              src="/mates/laser-close.webp"
               alt={t("text1")}
               fill
               sizes="(max-width: 768px) 90vw, 500px"
@@ -20,7 +20,7 @@ export function Craft() {
           </div>
           <div className={styles.imageWrap}>
             <Image
-              src="/mates/laser-machine.jpg"
+              src="/mates/laser-machine.webp"
               alt=""
               fill
               sizes="(max-width: 768px) 90vw, 500px"

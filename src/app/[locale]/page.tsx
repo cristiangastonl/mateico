@@ -3,6 +3,7 @@ import { Header } from "@/components/Header/Header";
 import { Hero } from "@/components/Hero/Hero";
 import { Showcase } from "@/components/Showcase/Showcase";
 import { Categories } from "@/components/Categories/Categories";
+import { Ideas } from "@/components/Ideas/Ideas";
 import { Craft } from "@/components/Craft/Craft";
 import { WaitlistCta } from "@/components/WaitlistCta/WaitlistCta";
 import { Footer } from "@/components/Footer/Footer";
@@ -20,6 +21,7 @@ export default async function Home() {
         <Hero />
         <Showcase />
         <Categories />
+        <Ideas />
         <Craft />
         <WaitlistCta />
       </main>

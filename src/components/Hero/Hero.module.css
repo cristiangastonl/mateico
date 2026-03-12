@@ -111,6 +111,12 @@
   font-weight: 600;
 }
 
+.error {
+  font-size: 1rem;
+  color: #e85d5d;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 2.75rem;

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Mateico — Custom laser-engraved mates in Amsterdam",
-    "description": "Handcrafted mates with custom laser engraving. Your story, engraved by hand. Football, family, love, anime and more. From Amsterdam."
+    "title": "Mateico — Custom laser-engraved mates from Amsterdam",
+    "description": "Handcrafted mates with custom laser engraving. Your club, your band, your family — engraved on gourd, wood or metal. Made one by one from Amsterdam."
   },
   "header": {
     "logo": "Mateico",
@@ -9,63 +9,81 @@
     "skipToContent": "Skip to content"
   },
   "hero": {
-    "title": "Your story, engraved by hand",
-    "subtitle": "Handcrafted mates with custom laser engraving. Each piece is unique, just like you.",
+    "title": "Your story, engraved by fire",
+    "subtitle": "Handcrafted mates with custom laser engraving. Your club, your band, your family — each piece is unique, just like you.",
     "emailPlaceholder": "Your email",
     "cta": "I want mine",
     "success": "You're in! We'll let you know when we launch.",
+    "error": "Something went wrong, try again in a moment.",
     "sending": "Sending...",
     "formLabel": "Waitlist signup"
   },
   "showcase": {
-    "title": "See what we make",
-    "prev": "Previous",
-    "next": "Next",
-    "items": {
-      "river": "Gourd mate with Patagonia engraving and bombilla",
-      "familia": "Handcrafted ceramic mate with traditional design and metal bombilla",
-      "amor": "Ceramic mate with pre-Columbian decorative engraving",
-      "tipos": "Artisan mate with incense — the mate ritual",
-      "laser": "High-precision laser engraving a design onto wood",
-      "riverBombilla": "Gourd mate with thermos ready to brew in the park"
+    "title": "The ritual is non-negotiable",
+    "text1": "It doesn't matter where in the world you are. If you're Argentine, mate is home. It's the round with friends, the quiet morning, the hug that needs no words.",
+    "text2": "At Mateico we engrave what you love most on the mate that's with you every day. Your club, your band, your family, your phrase — so every time you brew, you feel at home.",
+    "highlight": "Because every Argentine, wherever they are, deserves to feel like home.",
+    "images": {
+      "campeonBandera": "World Champion mate with Argentine flag in the background",
+      "campeonRosamonte": "World Champion mate with Rosamonte ready to brew",
+      "mateClasico": "Classic gourd mate with yerba and bombilla"
     }
   },
   "categories": {
     "title": "Find your mate",
     "subtitle": "Every passion deserves its mate. What's yours?",
     "futbol": "Fútbol",
-    "futbolDesc": "River, Boca, your beloved club",
-    "familia": "Familia",
-    "familiaDesc": "Names, dates, messages",
-    "amor": "Amor",
-    "amorDesc": "For that special someone",
+    "futbolDesc": "River, Boca, Racing, your beloved club",
+    "familia": "Family",
+    "familiaDesc": "Names, dates, what connects you",
+    "amor": "Love",
+    "amorDesc": "For that person who blows your mind",
     "anime": "Anime",
-    "animeDesc": "Your favorite characters",
+    "animeDesc": "Goku, Naruto, your characters",
     "argentina": "Argentina",
-    "argentinaDesc": "Home, mate and nostalgia",
-    "bandas": "Bandas",
-    "bandasDesc": "Rock, cumbia, your music",
-    "poesia": "Poesía",
-    "poesiaDesc": "Verses that stay with you",
+    "argentinaDesc": "Home, mate and nostalgia from the south",
+    "bandas": "Music",
+    "bandasDesc": "La Renga, Redondos, your rock",
+    "poesia": "Poetry",
+    "poesiaDesc": "Verses that join every mate session",
     "custom": "Your idea",
-    "customDesc": "Whatever you dream, we engrave it"
+    "customDesc": "Send us whatever you dream, we'll engrave it"
   },
   "craft": {
     "title": "Engraved with soul",
-    "text1": "Each mate goes through our hands and a high-precision laser that engraves your design into wood, metal or gourd.",
-    "text2": "This isn't mass production. It's one by one, with patience and care. That's why we have a waiting list.",
+    "text1": "Each mate goes through our hands and a high-precision laser that engraves your design into gourd, wood or metal.",
+    "text2": "This isn't mass production. It's one by one, with patience and care. That's why we have a waiting list — it's worth it.",
     "text3": "From Amsterdam, with our hands on the wood and our hearts in the south."
   },
   "waitlistCta": {
     "title": "Want yours?",
-    "subtitle": "Leave your email and we'll let you know when it's your turn.",
+    "subtitle": "Leave your email and we'll let you know when it's your turn. No spam, promise.",
     "emailPlaceholder": "Your email",
-    "cta": "Join the list",
+    "cta": "Sign me up",
     "success": "You're in! We'll write to you soon.",
+    "error": "Something went wrong, try again.",
     "sending": "Sending..."
   },
+  "ideas": {
+    "title": "Ideas you could have",
+    "subtitle": "Check out what's possible. Which one's your vibe?",
+    "hint": "Swipe to see more →",
+    "items": {
+      "campeonBandera": "World Champion — with Argentine crest and flag in the background",
+      "bocaJuniors": "Boca Juniors — La Bombonera, Riquelme and all the Xeneize mystique",
+      "laRenga": "La Renga — Argentine rock engraved on a black imperial mate",
+      "amorFrase": "\"Where life begins and love never ends\"",
+      "campeonRosamonte": "World Champion — with Rosamonte yerba ready to brew",
+      "dragonBall": "Dragon Ball Z — Goku, Vegeta and the dragon balls",
+      "riverAgustin": "River Plate with name — personalized for you",
+      "musicaFrase": "\"Music is not what I do, it's what I am\"",
+      "personalizadoFacu": "Mate with your name engraved — perfect as a gift",
+      "mateClasico": "Gourd mate with yerba and bombilla — the timeless ritual",
+      "campeonesMundo": "World Champions 78 · 86 · 22 — the three golden stars"
+    }
+  },
   "footer": {
-    "tagline": "Custom mates with Argentine soul, made in Amsterdam.",
+    "tagline": "Mates with Argentine soul, handcrafted in Amsterdam.",
     "contact": "Contact",
     "followUs": "Follow us",
     "rights": "All rights reserved.",

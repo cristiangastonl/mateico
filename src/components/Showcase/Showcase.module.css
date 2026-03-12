@@ -1,109 +1,109 @@
 .section {
-  padding: 5rem 1.5rem;
-  background: var(--color-cream);
-}
-
-.carousel {
+  position: relative;
+  min-height: 80vh;
   display: flex;
   align-items: center;
-  gap: 1rem;
-  max-width: 800px;
-  margin: 2rem auto 0;
-}
-
-.slideContainer {
-  position: relative;
-  flex: 1;
-  aspect-ratio: 4 / 3;
-  border-radius: 12px;
+  justify-content: center;
+  text-align: center;
   overflow: hidden;
-  background: var(--color-cream-dark);
 }
 
-.slide {
-  position: absolute;
-  inset: 0;
+.bgImage {
+  object-fit: cover;
+  object-position: center;
   opacity: 0;
-  transition: opacity 0.4s ease;
+  transition: opacity 1.2s ease;
 }
 
-.active {
+.bgActive {
   opacity: 1;
 }
 
-.image {
-  object-fit: cover;
-}
-
-.caption {
+.overlay {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2rem 1.5rem 1.25rem;
-  background: linear-gradient(to top, rgba(26, 42, 26, 0.85), transparent);
-  color: var(--color-cream);
-  font-size: 0.95rem;
-  line-height: 1.4;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 42, 26, 0.75) 0%,
+    rgba(26, 42, 26, 0.6) 40%,
+    rgba(26, 42, 26, 0.8) 100%
+  );
+  z-index: 1;
+}
+
+.inner {
+  position: relative;
   z-index: 2;
+  max-width: 700px;
+  padding: 6rem 1.5rem;
 }
 
-.arrow {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 2px solid var(--color-green-dark);
-  background: var(--color-white);
-  color: var(--color-green-dark);
-  font-size: 1.5rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
+.title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--color-gold);
+  margin-bottom: 2rem;
+  line-height: 1.15;
 }
 
-.arrow:hover {
-  background: var(--color-green-dark);
+.text {
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: var(--color-cream);
+  margin-bottom: 1.25rem;
+  opacity: 0.9;
+}
+
+.highlight {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--color-gold);
+  margin-top: 1.5rem;
+  line-height: 1.4;
 }
 
 .dots {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: center;
   gap: 0.5rem;
-  margin-top: 1.5rem;
+  z-index: 3;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  border: none;
-  background: var(--color-cream-dark);
-  cursor: pointer;
-  transition: all 0.2s;
+  background: rgba(250, 248, 242, 0.3);
+  transition: all 0.3s;
 }
 
 .dotActive {
   background: var(--color-gold);
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 @media (max-width: 768px) {
   .section {
-    padding: 3rem 1rem;
+    min-height: 70vh;
   }
 
-  .arrow {
-    width: 36px;
-    height: 36px;
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .text {
+    font-size: 1.05rem;
+  }
+
+  .highlight {
     font-size: 1.2rem;
   }
 
-  .caption {
-    font-size: 0.85rem;
-    padding: 1.5rem 1rem 1rem;
+  .inner {
+    padding: 4rem 1.25rem;
   }
 }

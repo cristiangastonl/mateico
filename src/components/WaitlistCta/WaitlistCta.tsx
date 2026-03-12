@@ -7,7 +7,7 @@ import styles from "./WaitlistCta.module.css";
 export function WaitlistCta() {
   const t = useTranslations("waitlistCta");
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -15,15 +15,17 @@ export function WaitlistCta() {
 
     setStatus("sending");
     try {
-      await fetch("https://formspree.io/f/xpwzgkjq", {
+      const res = await fetch("https://formsubmit.co/ajax/cristiangastonl@gmail.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, _subject: "Mateico Waitlist" }),
+        body: JSON.stringify({ email, _subject: "Mateico Waitlist – CTA" }),
       });
+      if (!res.ok) throw new Error();
       setStatus("sent");
       setEmail("");
     } catch {
-      setStatus("idle");
+      setStatus("error");
+      setTimeout(() => setStatus("idle"), 3000);
     }
   }
 
@@ -34,6 +36,8 @@ export function WaitlistCta() {
         <p className={styles.subtitle}>{t("subtitle")}</p>
         {status === "sent" ? (
           <p className={styles.success} role="status" aria-live="polite">{t("success")}</p>
+        ) : status === "error" ? (
+          <p className={styles.error} role="alert">{t("error")}</p>
         ) : (
           <form onSubmit={handleSubmit} className={styles.form}>
             <label htmlFor="cta-email" className="srOnly">{t("emailPlaceholder")}</label>
